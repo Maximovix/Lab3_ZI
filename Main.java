@@ -6,6 +6,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
        new Thread( new Server("Server")).start();
-       new Thread( new Client("Client")).start();
+       Client client = new Client("Client");
     }
 }
