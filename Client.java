@@ -35,7 +35,7 @@ public class Client extends JFrame {
     private static ArrayList<Integer> generatorList = new ArrayList<>();
     private static ArrayList<Integer> safePrimeList = new ArrayList<>();
     private static ArrayList<String> options = new ArrayList<>();
-    private static int[] simpleNumber = {499,503,509,521,523,541,547,557,563,569,571,577,587,593,599,601,607,613,617,619,631,643,647,653,659,661,673,677,683,691,701};//{3,5,7,11,13,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101};
+    private static int[] simpleNumber = {499,503,509,521,523,541,547,557,563,569,571,577,587,593,599,601,607,613,617,619,631,643,647,653,659,661,673,677,683,691,701};
     private static final int k = 3;
     private static int a;
     private static String username;
